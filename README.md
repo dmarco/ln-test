@@ -37,6 +37,10 @@ This instalation comes with USER Migrations and Seeder. Use following default cr
 U: admin@admin.com <br />
 P: adminadmin <br />
 
+## Postman
+
+Import `./config/postman/LA NACION.postman_collection.json` and run the API endpoints.
+
 ## RUN commands
 
 To execute commands into container, prefix "./run" + command
@@ -45,19 +49,32 @@ To execute commands into container, prefix "./run" + command
 ./run php artisan migrate
 ```
 
-## TEST
+## Test
 
 ```shell
 ./run ./vendor/bin/phpunit --filter ApiTokenTest
 ```
 
+## The APP
+
+The application contains a CRM to create, modify and delete points. In addition, it has an API to:
+- List all the points.
+- Show a point.
+- Add a point.
+- Modify a point.
+- Delete a point.
+- List nearest points.
+
+And use LeafletJs and OpenStreetMap to show points on a map.
 
 
 
 
 
-
-
+#
+#
+#
+#
 
 
 ## Configuration

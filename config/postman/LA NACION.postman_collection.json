@@ -1,0 +1,308 @@
+{
+	"info": {
+		"_postman_id": "1196df4b-d750-4442-b850-bd3de624eafa",
+		"name": "LA NACION",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "email",
+							"value": "admin@admin.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "adminadmin",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8089/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/me",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8089/api/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "INDEX /api/location",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8089/api/location",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SHOW /api/location/{location}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8089/api/location/13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"location",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "STORE /api/location",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Argentina",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "-30.559482",
+							"type": "text"
+						},
+						{
+							"key": "lng",
+							"value": "22.937506",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8089/api/location",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE /api/location/{location}",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU1NzE5OTgwNiwiZXhwIjoxNTU3MjAzNDA2LCJuYmYiOjE1NTcxOTk4MDYsImp0aSI6ImJPeGkzbVhFQ1NXVkV6ZVkiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.Lk-eW6J3e4vypyNpYtmsGifXtBW8PttmYzoTmjj-uN0"
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "Argentinas",
+							"type": "text"
+						},
+						{
+							"key": "lat",
+							"value": "-30.559482",
+							"type": "text"
+						},
+						{
+							"key": "lng",
+							"value": "22.937506",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8089/api/location/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"location",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE /api/location/{location}",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"type": "text",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU1NzE5OTgwNiwiZXhwIjoxNTU3MjAzNDA2LCJuYmYiOjE1NTcxOTk4MDYsImp0aSI6ImJPeGkzbVhFQ1NXVkV6ZVkiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.Lk-eW6J3e4vypyNpYtmsGifXtBW8PttmYzoTmjj-uN0"
+					}
+				],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8089/api/location/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"location",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEAR /api/location/near/{location}/{limit?}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8089/api/location/near/3/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"location",
+						"near",
+						"3",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
