@@ -40,7 +40,9 @@ echo "### Application setup ###"
 echo "#########################"
 ./run php artisan key:generate
 ./run php artisan migrate
+./run php artisan db:seed
 
 echo "### DONE! ###"
 echo ""
-echo "Run ./up to start the application"
+echo "http://localhost:8089/"
+echo ""
