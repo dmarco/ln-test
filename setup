@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# Build docker images
+echo "#######################"
+echo "### Building images ###"
+echo "#######################"
+# docker-compose build
+
+echo "###########################"
+echo "### Starting containers ###"
+echo "###########################"
+docker-compose up -d --build
+
+if [ ! -f .env ]; then
+    echo "##########################"
+    echo "### Creating .env file ###"
+    echo "##########################"
+    cp .env.example .env
+fi
+
+# Composer dependencies
+echo "########################################"
+echo "### Installing composer dependencies ###"
+echo "########################################"
+docker run --rm --interactive --tty \
+    --volume $PWD/www:/app \
+    composer install
+
+# NPM dependencies
+echo "###################################"
+echo "### Installing npm dependencies ###"
+echo "###################################"
+# docker run -v $PWD/www:/app -w /app node:8.9.4 npm install
+./run npm install
+
+# Application setup
+echo "#########################"
+echo "### Application setup ###"
+echo "#########################"
+./run php artisan key:generate
+./run php artisan migrate
+
+echo "### DONE! ###"
+echo ""
+echo "Run ./up to start the application"
