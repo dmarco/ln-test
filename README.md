@@ -65,16 +65,24 @@ The application contains a CRM to create, modify and delete points. In addition,
 - Delete a point.
 - List nearest points.
 
-And use LeafletJs and OpenStreetMap to show points on a map.
+And uses LeafletJs and OpenStreetMap to show points on a map.
 
+Api Endpoints are protected with JWT. Remember to login to the API to capture TOKEN and paste in the authorization headers.
 
+Please import `./config/postman/LA NACION.postman_collection.json`
 
+```shell
+Authorization: Bearer eyJhbGciOiJIUzI1NiI...
+```
 
+<br />
+<br />
+<br />
+<br />
 
 #
-#
-#
-#
+
+<br />
 
 
 ## Configuration
