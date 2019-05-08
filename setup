@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# Copy .env file
+echo "##########################"
+echo "### Creating .env file ###"
+echo "##########################"
+if [ ! -f .env ]; then
+    cp .env.example .env
+fi
+
 # Build docker images
 echo "#######################"
 echo "### Building images ###"
@@ -10,13 +18,6 @@ echo "###########################"
 echo "### Starting containers ###"
 echo "###########################"
 docker-compose up -d --build
-
-if [ ! -f .env ]; then
-    echo "##########################"
-    echo "### Creating .env file ###"
-    echo "##########################"
-    cp .env.example .env
-fi
 
 # Composer dependencies
 echo "########################################"

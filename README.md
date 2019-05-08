@@ -14,6 +14,8 @@ This is a custom LAMP stack environment built using Docker Compose. It consists 
 
 ## Installation
 
+This process will take several minutes.
+
 ```shell
 ./setup
 ```
