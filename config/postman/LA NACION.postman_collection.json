@@ -84,7 +84,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzI4NjU4MCwiZXhwIjoxNTU3MjkwMTgwLCJuYmYiOjE1NTcyODY1ODAsImp0aSI6IjlQOTRvbUI0NXZwMHN4d1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.sWBi_5Q6vx4rLlrm2ds4NSvq5CyWcN8ItePowjnQP14",
 						"type": "text"
 					}
 				],
@@ -115,7 +115,7 @@
 					{
 						"key": "Authorization",
 						"type": "text",
-						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU"
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzI4NjU4MCwiZXhwIjoxNTU3MjkwMTgwLCJuYmYiOjE1NTcyODY1ODAsImp0aSI6IjlQOTRvbUI0NXZwMHN4d1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.sWBi_5Q6vx4rLlrm2ds4NSvq5CyWcN8ItePowjnQP14"
 					}
 				],
 				"body": {
@@ -123,7 +123,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8089/api/location/13",
+					"raw": "http://localhost:8089/api/location/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -132,7 +132,7 @@
 					"path": [
 						"api",
 						"location",
-						"13"
+						"1"
 					]
 				}
 			},
@@ -145,7 +145,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzI4NjU4MCwiZXhwIjoxNTU3MjkwMTgwLCJuYmYiOjE1NTcyODY1ODAsImp0aSI6IjlQOTRvbUI0NXZwMHN4d1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.sWBi_5Q6vx4rLlrm2ds4NSvq5CyWcN8ItePowjnQP14",
 						"type": "text"
 					},
 					{
@@ -160,17 +160,17 @@
 					"urlencoded": [
 						{
 							"key": "name",
-							"value": "Argentina",
+							"value": "KIOSCO Laprida 2800",
 							"type": "text"
 						},
 						{
 							"key": "lat",
-							"value": "-30.559482",
+							"value": "-34.5424612",
 							"type": "text"
 						},
 						{
 							"key": "lng",
-							"value": "22.937506",
+							"value": "-58.4919221",
 							"type": "text"
 						}
 					]
@@ -198,7 +198,7 @@
 					{
 						"key": "Authorization",
 						"type": "text",
-						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU1NzE5OTgwNiwiZXhwIjoxNTU3MjAzNDA2LCJuYmYiOjE1NTcxOTk4MDYsImp0aSI6ImJPeGkzbVhFQ1NXVkV6ZVkiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.Lk-eW6J3e4vypyNpYtmsGifXtBW8PttmYzoTmjj-uN0"
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzI4NjU4MCwiZXhwIjoxNTU3MjkwMTgwLCJuYmYiOjE1NTcyODY1ODAsImp0aSI6IjlQOTRvbUI0NXZwMHN4d1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.sWBi_5Q6vx4rLlrm2ds4NSvq5CyWcN8ItePowjnQP14"
 					},
 					{
 						"key": "Content-Type",
@@ -212,23 +212,23 @@
 					"urlencoded": [
 						{
 							"key": "name",
-							"value": "Argentinas",
+							"value": "KIOSCO Laprida 2802",
 							"type": "text"
 						},
 						{
 							"key": "lat",
-							"value": "-30.559482",
+							"value": "-34.5424612",
 							"type": "text"
 						},
 						{
 							"key": "lng",
-							"value": "22.937506",
+							"value": "-58.4919221",
 							"type": "text"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8089/api/location/10",
+					"raw": "http://localhost:8089/api/location/6",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -237,7 +237,40 @@
 					"path": [
 						"api",
 						"location",
-						"10"
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NEAR /api/location/near/{location}/{limit?}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzI4NjU4MCwiZXhwIjoxNTU3MjkwMTgwLCJuYmYiOjE1NTcyODY1ODAsImp0aSI6IjlQOTRvbUI0NXZwMHN4d1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.sWBi_5Q6vx4rLlrm2ds4NSvq5CyWcN8ItePowjnQP14",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8089/api/location/near/1/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"api",
+						"location",
+						"near",
+						"1",
+						"4"
 					]
 				}
 			},
@@ -251,12 +284,12 @@
 					{
 						"key": "Authorization",
 						"type": "text",
-						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU1NzE5OTgwNiwiZXhwIjoxNTU3MjAzNDA2LCJuYmYiOjE1NTcxOTk4MDYsImp0aSI6ImJPeGkzbVhFQ1NXVkV6ZVkiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.Lk-eW6J3e4vypyNpYtmsGifXtBW8PttmYzoTmjj-uN0"
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzI4NjU4MCwiZXhwIjoxNTU3MjkwMTgwLCJuYmYiOjE1NTcyODY1ODAsImp0aSI6IjlQOTRvbUI0NXZwMHN4d1QiLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.sWBi_5Q6vx4rLlrm2ds4NSvq5CyWcN8ItePowjnQP14"
 					}
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:8089/api/location/11",
+					"raw": "http://localhost:8089/api/location/6",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -265,40 +298,7 @@
 					"path": [
 						"api",
 						"location",
-						"11"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "NEAR /api/location/near/{location}/{limit?}",
-			"request": {
-				"method": "GET",
-				"header": [
-					{
-						"key": "Authorization",
-						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4OVwvYXBpXC9sb2dpbiIsImlhdCI6MTU1NzIwMzg3MywiZXhwIjoxNTU3MjA3NDczLCJuYmYiOjE1NTcyMDM4NzMsImp0aSI6IkRpa0djRUNPaU94ZFVxUlciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ._1xQBjLSoOedRfPPr2WsWvFQdwstRwgtNcHvNTZw8EU",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
-				"url": {
-					"raw": "http://localhost:8089/api/location/near/3/4",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "8089",
-					"path": [
-						"api",
-						"location",
-						"near",
-						"3",
-						"4"
+						"6"
 					]
 				}
 			},

@@ -153,7 +153,17 @@ class LocationController extends Controller
         'lng' => 'required'
       ]);
 
-      $location = Location::find($id);
+			$location = Location::find($id);
+			
+			if (!$location)
+			{
+				return response()->json([
+					'errors' => array([
+					'code' => 404,
+					'message' => 'No locations found!'
+				])], 404);
+			}
+
       $location->name = $request->get('name');
       $location->lat = $request->get('lat');
       $location->lng = $request->get('lng');
@@ -161,14 +171,6 @@ class LocationController extends Controller
 
 			if(request()->segment(1) === 'api'){
 
-				if (!$location)
-				{
-					return response()->json([
-						'errors' => array([
-							'code' => 404,
-							'message' => 'No locations found!'
-						])], 404);
-				}
 				return response()->json([
 					'status' => 'ok', 
 					'data' => $location
@@ -191,18 +193,20 @@ class LocationController extends Controller
     public function destroy($id)
     {
 			$location = Location::find($id);
+
+			if (!$location)
+			{
+				return response()->json([
+					'errors' => array([
+						'code' => 404,
+						'message' => 'No locations found!'
+					])], 404);
+			}
+
 			$location->delete();
 
 			if(request()->segment(1) === 'api'){
 
-				if (!$location)
-				{
-					return response()->json([
-						'errors' => array([
-							'code' => 404,
-							'message' => 'No locations found!'
-						])], 404);
-				}
 				return response()->json([
 					'status' => 'ok', 
 					'data' => $location
@@ -229,7 +233,7 @@ class LocationController extends Controller
 			$lng = $location->lng;
 				
 			$nearestList = DB::table("locations")
-					->select("locations.id"
+					->select("locations.id", "locations.name"
 							, DB::raw("6371 * acos(cos(radians(" . $lat . ")) 
 							* cos(radians(locations.lat)) 
 							* cos(radians(locations.lng) - radians(" . $lng . ")) 

@@ -61,7 +61,7 @@
 
 		var locations = {!! $locations !!};
 	
-		var map = L.map('map').setView([51.505, -0.09], 12);
+		var map = L.map('map').setView([51.505, -0.09], 18);
 
 		L.tileLayer( 'https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png', {
 				attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a>',

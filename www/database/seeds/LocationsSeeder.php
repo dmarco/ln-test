@@ -15,27 +15,33 @@ class LocationsSeeder extends Seeder
 			Location::truncate();
 
 			Location::create([
-					'name' => 'Canada',
-					'lat' => '56.130366',
-					'lng' => '-106.346771',
-					'created_at' => now(),
-					'updated_at' => now(),
+					'name' => 'La Nacion',
+					'lat' => '-34.5334209',
+					'lng' => '-58.4696912'
+			]);
+			
+			Location::create([
+					'name' => 'Kiosco Paris',
+					'lat' => '-34.539455',
+					'lng' => '-58.467413'
 			]);
 
 			Location::create([
-					'name' => 'United States',
-					'lat' => '37.090240',
-					'lng' => '-95.712891',
-					'created_at' => now(),
-					'updated_at' => now(),
+					'name' => 'Kiosco 24hs. PACO',
+					'lat' => '-34.5387761',
+					'lng' => '-58.4758562'
 			]);
 
 			Location::create([
-					'name' => 'South Africa',
-					'lat' => '-30.559482',
-					'lng' => '22.937506',
-					'created_at' => now(),
-					'updated_at' => now(),
+					'name' => 'Osco kiosco',
+					'lat' => '-34.5125426',
+					'lng' => '-58.4898639'
+			]);
+
+			Location::create([
+					'name' => 'Kiosco de Diarios y Revistas',
+					'lat' => '-34.5089949',
+					'lng' => '-58.4921693'
 			]);
 			
 	}
